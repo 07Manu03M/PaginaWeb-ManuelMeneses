@@ -4,6 +4,11 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    background: #071917;
+}
+
 /********** header ******************/
 .header {
     /* background: orange; */
@@ -165,5 +170,85 @@
     }
 }
 
+/* Seccion de About */
+.my_about1{
+    background-image: var(--banner-2);
+    background-size: 97% auto;
+    /* height: 80vh;
+    width: 100%; */
+    /* object-fit: contain; */
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 120svh;
+    /* background: aqua; */
+    /* padding: 20px; */
 
+}
+
+.foto1{
+    font-size: 68px;
+    font-family: "Montserrat-SemiBold";
+    width: 800px;
+    height: 360px;
+    position: relative;
+    top: 104svh;
+    left: 14svh;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: var(--font-color-1);
+}
+
+
+.my_about2{
+    background-image: var(--banner-3);
+    background-size: 97% auto;
+    /* height: 80vh;
+    width: 100%; */
+    object-fit: contain;
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 117svh;
+    
+    /* padding: 500px; */
+}
+
+.foto2{
+    font-size: 70px;
+    font-family: "Montserrat-SemiBold";
+    width: 800px;
+    height: 360px;
+    position: relative;
+    top: 92svh;
+    left: 11svh;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: var(--font-color-1);
+}
+
+.my_about3{
+    background-image: var(--banner-4);
+    background-size: 97% auto;
+    /* height: 80vh;
+    width: 100%; */
+    object-fit: contain;
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 130svh; 
+}
+
+.foto3{
+    font-size: 70px;
+    font-family: "Montserrat-SemiBold";
+    width: 800px;
+    height: 360px;
+    position: relative;
+    top: 92svh;
+    left: 13svh;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: var(--font-color-1);
+}
 

@@ -12,3 +12,25 @@
     font-family: "Montserrat-Medium";
     src: url(../storage/font/Montserrat/static/Montserrat-Medium.ttf);
 }
+
+
+:root{
+    --font-color-1: #eee;
+    --color-gradient-1: #376e4014;
+    --color-gradient-2: #071917;
+    --banner-2: url(../storage/img/Rectangle2.png);
+}
+
+:root{
+    --font-color-1: #eee;
+    --color-gradient-1: #376e4014;
+    --color-gradient-2: #071917;
+    --banner-3: url(../storage/img/Rectangle4.png);
+}
+
+:root{
+    --font-color-1: #eee;
+    --color-gradient-1: #376e4014;
+    --color-gradient-2: #071917;
+    --banner-4: url(../storage/img/Rectangle5.png);
+}
