@@ -83,3 +83,18 @@
     width: 340px;
     font-family: "Montserrat-Medium";
 }
+/************* section menu **********************/
+
+.section__icon{
+    background: #071917;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section__icon img{
+    /* background: violet; */
+}
+
+
+
+
