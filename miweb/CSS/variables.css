@@ -2,7 +2,12 @@
     --font-color-1: #eee;
     --color-gradient-1: #376e4014;
     --color-gradient-2: #071917;
+    --font-color-2: #145E2A;
+    --font-color-3: #000000;
     --banner-1: url(../storage/img/banner.png);
+    --banner-2: url(../storage/img/Rectangle2.png);
+    --banner-3: url(../storage/img/Rectangle4.png);
+    --banner-4: url(../storage/img/Rectangle5.png);
 }
 @font-face {
     font-family: "Montserrat-SemiBold";
@@ -13,25 +18,8 @@
     src: url(../storage/font/Montserrat/static/Montserrat-Medium.ttf);
 }
 
-
-:root{
-    --font-color-1: #eee;
-    --color-gradient-1: #376e4014;
-    --color-gradient-2: #071917;
-    --banner-2: url(../storage/img/Rectangle2.png);
-}
-
-:root{
-    --font-color-1: #eee;
-    --color-gradient-1: #376e4014;
-    --color-gradient-2: #071917;
-    --banner-3: url(../storage/img/Rectangle4.png);
-}
-
-:root{
-    --font-color-1: #eee;
-    --color-gradient-1: #376e4014;
-    --color-gradient-2: #071917;
-    --banner-4: url(../storage/img/Rectangle5.png);
+@font-face{
+    font-family: "Monstserrat-regular";
+    src: url(../storage/font/Montserrat/static/Montserrat-Regular.ttf);
 }
 

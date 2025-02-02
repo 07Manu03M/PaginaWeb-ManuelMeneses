@@ -294,8 +294,8 @@ body{
     flex: 0 0 auto;
     max-width: 385px;
     height: 627px;
-    background: #145E2A;
-    border-radius: 10px;
+    background: var(--font-color-2);
+    border-radius: 25px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -311,31 +311,35 @@ body{
 
 .div_contenido{
     padding: 10px;
-    color: white;
+    color: var(--banner-1);
     text-align: center;
     flex-grow: 1;
 }
 
 .div_contenido h3{
     font-size: 28px;
-    width: 330px;
     height: 70px;
     margin-right: 02px;
+    color: var(--font-color-1);
+    font-family: "Montserrat-Semibold";
 }
 
 .div_contenido p{
     margin-top: 20px;
     font-size: 20px;
+    color: var(--font-color-1);
+    font-family: "Monstserrat-regular";
 }
 
 .boton{
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
+    background-color: var(--font-color-1);
+    color: var(--font-color-3);
     padding: 10px 20px;
     border-radius: 15px;
     display: inline-block;
     margin-top: 40px;
     font-size: 20px;
+    font-family: "Monstserrat-regular";
 }
 
 
@@ -344,11 +348,33 @@ body{
 }
 
 .carrusel_contenedor::-webkit-scrollbar-track{
-    background: #333;
+    background: var(--font-color-2)
     border-radius: 10px;
 }
 
 .carrusel_contenedor::-webkit-scrollbar-thumb{
     background: #666;
     border-radius: 10px;
+}
+
+/*Final pagina 1*/
+.redes_sociales{
+    /*background: blueviolet;*/
+    height: 100px;
+    width: 160px;
+    position: relative;
+    top: 10px;
+    left: 650px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.redes_sociales img{
+    /*background: aqua;*/
+    height: 29px;
+    width: 29px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    margin-top: 30px;
 }
