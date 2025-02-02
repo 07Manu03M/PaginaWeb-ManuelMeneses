@@ -1,0 +1,135 @@
+@import url('variables2.css');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #071917;
+}
+
+.header-dos{
+    /* background: orange; */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+}
+
+.logo-2{
+    /* background: green; */
+    /* padding: 20px; */
+
+}
+
+.encabezado{
+    /* background: blueviolet; */
+    /* padding: 20px; */
+    display: flex;
+    gap: 18px;
+}
+
+.div_menu_dos{
+    /* background: blue; */
+    /* padding: 20px; */
+}
+
+.ul_menu_dos{
+    /* background: red; */
+    /* padding: 20px; */
+    display: flex;
+    gap: 50px;
+    padding-right: 100px;
+    color: #eee;
+    position: relative;
+    left: 400px;
+}
+
+.ul_menu_dos li{
+    list-style: none;
+}
+
+.section_opciones{
+    /* background: orangered;
+    padding: 10px; */
+    position: relative;
+    top: 52px;
+}
+
+.imagen_linea{
+    /* background: orange;
+    padding: 10px; */
+}
+
+.imagen_linea img{
+    /* background: orchid;
+    padding: 10px; */
+    width: 1255px;
+    position: relative;
+    left: 70px;
+}
+
+.section_menu{
+    /* background: gold;
+    padding: 10px; */
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    width: 1100px;
+    position: relative;
+    left: 105px;
+
+}
+
+.menu_link {
+    /* background: greenyellow; */
+    padding: 10px;
+    border-radius: 05px;
+    position: relative;
+    right: 120px;
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    background: #14532A;
+
+}
+
+.menu_link a{
+    /* background: pink; */
+    font-size: 15px;
+    position: relative;
+    left: 5px;
+    bottom: 2px;
+    text-decoration: none;
+    color: #eee;
+}
+
+.div_menu_blog{
+    /* background: purple;
+    padding: 10px; */
+    position: relative;
+    right: 10px;
+}
+
+.ul__menu{
+    /* background: aqua;
+    padding: 10px; */
+    display: flex;
+    gap: 60px;
+    color: var(--color-1);
+}
+
+.ul__menu li{
+    /* background: blue;
+    padding: 10px; */
+    list-style: none;
+    position: relative;
+    top: 5px;
+}

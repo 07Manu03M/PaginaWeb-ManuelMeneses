@@ -348,7 +348,7 @@ body{
 }
 
 .carrusel_contenedor::-webkit-scrollbar-track{
-    background: var(--font-color-2)
+    background: var(--font-color-2);
     border-radius: 10px;
 }
 
