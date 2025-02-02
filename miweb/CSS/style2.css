@@ -133,3 +133,63 @@ body{
     position: relative;
     top: 5px;
 }
+
+.main_blog{
+    /* background: orange;
+    padding: 10px; */
+    display: flex;
+    position: relative;
+    top: 125px;
+}
+
+.imagen_main{
+    /* background: blue;
+    padding: 10px; */
+    width: 1027px;
+    height: 606px;
+}
+
+.imagen_main img{
+    /* background: violet; */
+    /* padding: 10px; */
+    position: relative;
+    left: 30px;
+    z-index: 1;
+}
+
+.section_article_dos{
+    width: 760px;
+    height: 470px;
+    padding: 10px;
+    border-radius: 20px;
+    transform: rotate(90deg);
+    z-index: 10;
+    position: relative;
+    right: 200px;
+    background: rgba(12, 77, 34, 0.8);
+}
+
+.section_article_dos span{
+    background: olive;
+    /* padding: 10px; */
+}
+
+.section_article_dos h2{
+    background: blue;
+    /* padding: 10px; */
+}
+
+.section_article_dos p{
+    background: red;
+    /* padding: 10px; */
+}
+
+.div_boton{
+    background: violet;
+    /* padding: 10px; */
+}
+
+.div_boton p{
+    background: purple;
+    /* padding: 10px; */
+}
