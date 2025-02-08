@@ -55,6 +55,7 @@ body{
 
 .ul_menu_dos li{
     list-style: none;
+    font-family: "Montserrat-SemiBold";
 }
 
 .section_opciones{
@@ -95,7 +96,7 @@ body{
     border-radius: 05px;
     position: relative;
     right: 120px;
-    width: 100px;
+    width: 120px;
     height: 30px;
     font-size: 15px;
     background: #14532A;
@@ -109,7 +110,8 @@ body{
     left: 5px;
     bottom: 2px;
     text-decoration: none;
-    color: #eee;
+    color: var(--color-1);
+    font-family: "Montserrat-Medium";
 }
 
 .div_menu_blog{
@@ -124,6 +126,7 @@ body{
     padding: 10px; */
     display: flex;
     gap: 60px;
+    font-family: "Monstserrat-light";
     color: var(--color-1);
 }
 
@@ -181,6 +184,7 @@ body{
     position: relative;
     top: 10px;
     left: 10px;
+    font-family: "Monstserrat-light";
     color: #eee;
 }
 
@@ -193,39 +197,45 @@ body{
     left: 10px;
     width: 518px;
     height: 62px;
+    font-family: "Montserrat-SemiBold";
     color: #eee;
 }
 
 .div_del_menu p{
     /* background: red; */
     /* padding: 10px; */
-    font-size: 25px;
+    font-size: 20px;
     position: relative;
     top: 115px;
     left: 10px;
     width: 500px;
+    font-family: "Montserrat-Medium";
     color: #eee;
 }
 
 
 
 .div_leer{
-    /* background: violet;
-    padding: 10px; */
+    background: var(--color-1);
+    padding: 0px 50px;
+    border-radius: 25px;
+    position: relative;
+    top: 155px;
+    left: 240px;
+    width: 150px;
+    height: 40px;
    
     
 }
 
 .div_leer p{
-    background: #eee;
-    padding: 10px;
-    border-radius: 20px;
     font-size: 25px;
-    position: relative;
-    top: 135px;
-    left: 225px;
-    width: 135px;
+    width: 100%;
     color: black;
+    position: relative;
+    top: 5px;
+    left: -42px;
+    width: 1000px;
 }
 
 .recent_post{
@@ -249,7 +259,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 400px;
+    margin-bottom: 310px;
 }
 
 /* Caja 1 */
@@ -627,21 +637,90 @@ body{
 }
 
 .div_final{
-
+    /* background: #432f9c;
+    padding: 5px; */
+    width: auto;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .div_titulo_final{
+    /* background: greenyellow;
+    padding: 5px; */
+    width: 155px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+}
 
+.div_titulo_final h3{
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    color: var(--color-1);
+    font-family: "Monstserrat-bold";
 }
 
 .div_parrafo_final{
+    /* background: red;
+    padding: 5px; */
+    width: 855px;
+    height: 72px;
+    position: relative;
+    bottom: 20px;
+    display: flex;
+    align-items: center;
+}
 
+.div_parrafo_final p{
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+    color: var(--color-1);
+    font-family: "Monstserrat-regular";
 }
 
 .div_redes_sociales{
+    /* background: salmon;
+    padding: 5px; */
+    width: 304px;
+    height: 44px;
+    position: relative;
+    bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+}
 
+.div_redes_sociales img{
+    /* background: yellow;
+    padding: 10px; */
+    width: 44px;
+    height: 44px;
+    position: relative;
+    b: 0px;
 }
 
 .div_creditos{
-    
+    /* background: pink;
+    padding: 5px; */
+    width: 370px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    margin: 10px;
 }
+
+.div_creditos p{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    color: var(--color-1);
+    font-family: "Monstserrat-regular";
+}
+
+
+/* partes hechas por manuel meneses :D */

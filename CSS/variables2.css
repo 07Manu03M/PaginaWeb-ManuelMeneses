@@ -19,3 +19,16 @@
     font-family: "Monstserrat-regular";
     src: url(../storage/font/Montserrat/static/Montserrat-Regular.ttf);
 }
+
+@font-face{
+    font-family: "Monstserrat-bold";
+    src: url(../storage/font/Montserrat/static/Montserrat-Bold.ttf);
+}
+
+@font-face{
+    font-family: "Monstserrat-light";
+    src: url(../storage/font/Montserrat/static/Montserrat-Light.ttf);
+}
+
+
+/* partes hechas por manuel meneses :D */
