@@ -5,3 +5,17 @@
     -color-2: #145E2A;
     -color-3: #000000;
 } 
+
+@font-face {
+    font-family: "Montserrat-SemiBold";
+    src: url(../storage/font/Montserrat/static/Montserrat-SemiBold.ttf);
+}
+@font-face {
+    font-family: "Montserrat-Medium";
+    src: url(../storage/font/Montserrat/static/Montserrat-Medium.ttf);
+}
+
+@font-face{
+    font-family: "Monstserrat-regular";
+    src: url(../storage/font/Montserrat/static/Montserrat-Regular.ttf);
+}

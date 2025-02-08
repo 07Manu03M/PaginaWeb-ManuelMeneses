@@ -8,6 +8,7 @@
 
 body{
     background: #071917;
+    overflow-x: hidden;
 }
 
 .header-dos{
@@ -225,4 +226,323 @@ body{
     left: 225px;
     width: 135px;
     color: black;
+}
+
+.recent_post{
+    background: aqua;
+    padding: 5px;
+    position: relative;
+    top: 35svh;
+    font-size: 28px;
+}
+
+#section_post{
+    /* background: cadetblue;
+    padding: 5px; */
+    position: relative;
+    top: 50svh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.div_clasita1{
+    background: green;
+    padding: 5px;
+    width: 447px;
+    height: 593px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.div_clasita1 img{
+    /* background: saddlebrown;
+    padding: 5px; */
+    width: 414px;
+    height: 284px;
+}
+
+.div_clasita1 h1{
+    /* background: red;
+    padding: 5px; */
+    width: 100%;
+    height: 34px;
+    font-size: 27px;
+    font-family: "Montserrat-SemiBold";
+}
+
+.div_clasita1 p{
+    /* background: rebeccapurple;
+    padding: 5px; */
+    width: 410px;
+    height: 72px;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Monstserrat-regular";
+}
+
+.div_clasita1 a{
+    /* background: yellow;
+    padding: 5px; */
+    width: 145px;
+    height: 44px;
+    display:flex;
+    font-size: 20px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Monstserrat-regular";
+}
+
+.div_clasita2{
+    background: green;
+    padding: 5px;
+    width: 447px;
+    height: 593px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.div_clasita2 img{
+    /* background: saddlebrown;
+    padding: 5px; */
+    width: 414px;
+    height: 284px;
+}
+
+.div_clasita2 h1{
+    /* background: red;
+    padding: 5px; */
+    width: 100%;
+    height: 34px;
+    font-size: 27px;
+    font-family: "Montserrat-SemiBold";
+}
+
+.div_clasita2 p{
+    /* background: rebeccapurple;
+    padding: 5px; */
+    width: 410px;
+    height: 72px;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Monstserrat-regular";
+}
+
+.div_clasita2 a{
+    /* background: yellow;
+    padding: 5px; */
+    width: 145px;
+    height: 44px;
+    display:flex;
+    font-size: 20px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Monstserrat-regular";
+}
+
+.div_clasita3{
+    background: green;
+    padding: 5px;
+    width: 447px;
+    height: 593px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.div_clasita3 img{
+    /* background: saddlebrown;
+    padding: 5px; */
+    width: 414px;
+    height: 284px;
+}
+
+.div_clasita3 h1{
+    /* background: red;
+    padding: 5px; */
+    width: 100%;
+    height: 34px;
+    font-size: 27px;
+    font-family: "Montserrat-SemiBold";
+}
+
+.div_clasita3 p{
+    /* background: rebeccapurple;
+    padding: 5px; */
+    width: 410px;
+    height: 72px;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Monstserrat-regular";
+}
+
+.div_clasita3 a{
+    /* background: yellow;
+    padding: 5px; */
+    width: 145px;
+    height: 44px;
+    display:flex;
+    font-size: 20px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Monstserrat-regular";
+}
+
+.div_clasita4{
+    background: green;
+    padding: 5px;
+    width: 447px;
+    height: 593px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.div_clasita4 img{
+    /* background: saddlebrown;
+    padding: 5px; */
+    width: 414px;
+    height: 284px;
+}
+
+.div_clasita4 h1{
+    /* background: red; */
+    /* padding: 5px; */
+    width: 100%;
+    height: 34px;
+    font-size: 27px;
+    font-family: "Montserrat-SemiBold";
+}
+
+.div_clasita4 p{
+    /* background: rebeccapurple;
+    padding: 5px; */
+    width: 410px;
+    height: 72px;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Monstserrat-regular";
+}
+
+.div_clasita4 a{
+    /* background: yellow;
+    padding: 5px; */
+    width: 145px;
+    height: 44px;
+    display:flex;
+    font-size: 20px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Monstserrat-regular";
+}
+
+
+.div_clasita5{
+    background: green;
+    padding: 5px;
+    width: 447px;
+    height: 593px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.div_clasita5 img{
+    /* background: saddlebrown;
+    padding: 5px; */
+    width: 414px;
+    height: 284px;
+}
+
+.div_clasita5 h1{
+    /* background: red;
+    padding: 5px; */
+    width: 100%;
+    height: 34px;
+    font-size: 27px;
+    font-family: "Montserrat-SemiBold";
+}
+
+.div_clasita5 p{
+    /* background: rebeccapurple;
+    padding: 5px; */
+    width: 410px;
+    height: 72px;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Monstserrat-regular";
+}
+
+.div_clasita5 a{
+    /* background: yellow;
+    padding: 5px; */
+    width: 145px;
+    height: 44px;
+    display:flex;
+    font-size: 20px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Monstserrat-regular";
+}
+
+.div_clasita6{
+    background: green;
+    padding: 5px;
+    width: 447px;
+    height: 593px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.div_clasita6 img{
+    /* background: saddlebrown;
+    padding: 5px; */
+    width: 414px;
+    height: 284px;
+}
+
+.div_clasita6 h1{
+    /* background: red;
+    padding: 5px; */
+    width: 100%;
+    height: 34px;
+    font-size: 27px;
+    font-family: "Montserrat-SemiBold";
+}
+
+.div_clasita6 p{
+    /* background: rebeccapurple;
+    padding: 5px; */
+    width: 410px;
+    height: 72px;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Monstserrat-regular";
+}
+
+.div_clasita6 a{
+    /* background: yellow;
+    padding: 5px; */
+    width: 145px;
+    height: 44px;
+    display:flex;
+    font-size: 20px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Monstserrat-regular";
 }
