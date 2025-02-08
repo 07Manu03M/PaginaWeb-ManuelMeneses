@@ -229,39 +229,48 @@ body{
 }
 
 .recent_post{
-    background: aqua;
-    padding: 5px;
+    /* background: aqua;
+    padding: 5px; */
+    color: var(--color-1);
+    width: 186px;
+    height: 34px;
     position: relative;
-    top: 35svh;
+    top: 30svh;
+    left: 10svh;
     font-size: 28px;
+    font-family: "Montserrat-Medium";
 }
 
 #section_post{
     /* background: cadetblue;
     padding: 5px; */
     position: relative;
-    top: 50svh;
+    top: 40svh;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    margin-bottom: 400px;
 }
 
+/* Caja 1 */
+
 .div_clasita1{
-    background: green;
+    background: var(--color-2);
     padding: 5px;
-    width: 447px;
-    height: 593px;
+    width: 417px;
+    height: 563px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    border-radius: 20px;
 }
 
 .div_clasita1 img{
     /* background: saddlebrown;
     padding: 5px; */
-    width: 414px;
-    height: 284px;
+    width: 384px;
+    height: 254px;
 }
 
 .div_clasita1 h1{
@@ -269,7 +278,9 @@ body{
     padding: 5px; */
     width: 100%;
     height: 34px;
+    text-align: center;
     font-size: 27px;
+    color: var(--color-1);
     font-family: "Montserrat-SemiBold";
 }
 
@@ -280,12 +291,14 @@ body{
     height: 72px;
     font-size: 20px;
     text-align: center;
+    color: var(--color-1);
     font-family: "Monstserrat-regular";
 }
 
 .div_clasita1 a{
-    /* background: yellow;
-    padding: 5px; */
+    background: var(--color-1);
+    color: var(--color-3);
+    padding: 5px;
     width: 145px;
     height: 44px;
     display:flex;
@@ -293,25 +306,31 @@ body{
     text-align: center;
     flex-direction: column;
     justify-content: center;
+    border-radius: 20px;
+    text-decoration: none;
     font-family: "Monstserrat-regular";
 }
 
+
+/* Caja 2 */
+
 .div_clasita2{
-    background: green;
+    background: var(--color-2);
     padding: 5px;
-    width: 447px;
-    height: 593px;
+    width: 417px;
+    height: 563px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    border-radius: 20px;
 }
 
 .div_clasita2 img{
     /* background: saddlebrown;
     padding: 5px; */
-    width: 414px;
-    height: 284px;
+    width: 384px;
+    height: 254px;
 }
 
 .div_clasita2 h1{
@@ -319,7 +338,9 @@ body{
     padding: 5px; */
     width: 100%;
     height: 34px;
+    text-align: center;
     font-size: 27px;
+    color: var(--color-1);
     font-family: "Montserrat-SemiBold";
 }
 
@@ -330,12 +351,16 @@ body{
     height: 72px;
     font-size: 20px;
     text-align: center;
+    color: var(--color-1);
     font-family: "Monstserrat-regular";
 }
 
 .div_clasita2 a{
     /* background: yellow;
     padding: 5px; */
+    background: var(--color-1);
+    color: var(--color-3);
+    padding: 5px;
     width: 145px;
     height: 44px;
     display:flex;
@@ -343,25 +368,31 @@ body{
     text-align: center;
     flex-direction: column;
     justify-content: center;
+    border-radius: 20px;
+    text-decoration: none;
     font-family: "Monstserrat-regular";
 }
 
+
+/* Caja 3 */
+
 .div_clasita3{
-    background: green;
+    background: var(--color-2);
     padding: 5px;
-    width: 447px;
-    height: 593px;
+    width: 417px;
+    height: 563px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    border-radius: 20px;
 }
 
 .div_clasita3 img{
     /* background: saddlebrown;
     padding: 5px; */
-    width: 414px;
-    height: 284px;
+    width: 384px;
+    height: 254px;
 }
 
 .div_clasita3 h1{
@@ -369,7 +400,9 @@ body{
     padding: 5px; */
     width: 100%;
     height: 34px;
+    text-align: center;
     font-size: 27px;
+    color: var(--color-1);
     font-family: "Montserrat-SemiBold";
 }
 
@@ -380,12 +413,16 @@ body{
     height: 72px;
     font-size: 20px;
     text-align: center;
+    color: var(--color-1);
     font-family: "Monstserrat-regular";
 }
 
 .div_clasita3 a{
     /* background: yellow;
     padding: 5px; */
+    background: var(--color-1);
+    color: var(--color-3);
+    padding: 5px;
     width: 145px;
     height: 44px;
     display:flex;
@@ -393,25 +430,34 @@ body{
     text-align: center;
     flex-direction: column;
     justify-content: center;
+    border-radius: 20px;
+    text-decoration: none;
     font-family: "Monstserrat-regular";
 }
 
+
+/* Caja 4 */
+
 .div_clasita4{
-    background: green;
+    background: var(--color-2);
     padding: 5px;
-    width: 447px;
-    height: 593px;
+    width: 417px;
+    height: 563px;
+    position: relative;
+    top: 4svh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    border-radius: 20px;
+    
 }
 
 .div_clasita4 img{
     /* background: saddlebrown;
     padding: 5px; */
-    width: 414px;
-    height: 284px;
+    width: 384px;
+    height: 254px;
 }
 
 .div_clasita4 h1{
@@ -419,7 +465,9 @@ body{
     /* padding: 5px; */
     width: 100%;
     height: 34px;
+    text-align: center;
     font-size: 27px;
+    color: var(--color-1);
     font-family: "Montserrat-SemiBold";
 }
 
@@ -430,12 +478,16 @@ body{
     height: 72px;
     font-size: 20px;
     text-align: center;
+    color: var(--color-1);
     font-family: "Monstserrat-regular";
 }
 
 .div_clasita4 a{
     /* background: yellow;
     padding: 5px; */
+    background: var(--color-1);
+    color: var(--color-3);
+    padding: 5px;
     width: 145px;
     height: 44px;
     display:flex;
@@ -443,26 +495,32 @@ body{
     text-align: center;
     flex-direction: column;
     justify-content: center;
+    border-radius: 20px;
+    text-decoration: none;
     font-family: "Monstserrat-regular";
 }
 
+/* Caja 5 */
 
 .div_clasita5{
-    background: green;
+    background: var(--color-2);
     padding: 5px;
-    width: 447px;
-    height: 593px;
+    width: 417px;
+    height: 563px;
+    position: relative;
+    top: 4svh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    border-radius: 20px;
 }
 
 .div_clasita5 img{
     /* background: saddlebrown;
     padding: 5px; */
-    width: 414px;
-    height: 284px;
+    width: 384px;
+    height: 254px;
 }
 
 .div_clasita5 h1{
@@ -470,9 +528,11 @@ body{
     padding: 5px; */
     width: 100%;
     height: 34px;
+    text-align: center;
     font-size: 27px;
+    color: var(--color-1);
     font-family: "Montserrat-SemiBold";
-}
+}   
 
 .div_clasita5 p{
     /* background: rebeccapurple;
@@ -481,12 +541,16 @@ body{
     height: 72px;
     font-size: 20px;
     text-align: center;
+    color: var(--color-1);
     font-family: "Monstserrat-regular";
 }
 
 .div_clasita5 a{
     /* background: yellow;
     padding: 5px; */
+    background: var(--color-1);
+    color: var(--color-3);
+    padding: 5px;
     width: 145px;
     height: 44px;
     display:flex;
@@ -494,25 +558,32 @@ body{
     text-align: center;
     flex-direction: column;
     justify-content: center;
+    border-radius: 20px;
+    text-decoration: none;
     font-family: "Monstserrat-regular";
 }
 
+/* Caja 6 */
+
 .div_clasita6{
-    background: green;
+    background: var(--color-2);
     padding: 5px;
-    width: 447px;
-    height: 593px;
+    width: 417px;
+    height: 563px;
+    position: relative;
+    top: 4svh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    border-radius: 20px;
 }
 
 .div_clasita6 img{
     /* background: saddlebrown;
     padding: 5px; */
-    width: 414px;
-    height: 284px;
+    width: 384px;
+    height: 254px;
 }
 
 .div_clasita6 h1{
@@ -520,7 +591,9 @@ body{
     padding: 5px; */
     width: 100%;
     height: 34px;
+    text-align: center;
     font-size: 27px;
+    color: var(--color-1);
     font-family: "Montserrat-SemiBold";
 }
 
@@ -531,12 +604,16 @@ body{
     height: 72px;
     font-size: 20px;
     text-align: center;
+    color: var(--color-1);
     font-family: "Monstserrat-regular";
 }
 
 .div_clasita6 a{
     /* background: yellow;
     padding: 5px; */
+    background: var(--color-1);
+    color: var(--color-3);
+    padding: 5px;
     width: 145px;
     height: 44px;
     display:flex;
@@ -544,5 +621,27 @@ body{
     text-align: center;
     flex-direction: column;
     justify-content: center;
+    border-radius: 20px;
+    text-decoration: none;
     font-family: "Monstserrat-regular";
+}
+
+.div_final{
+
+}
+
+.div_titulo_final{
+
+}
+
+.div_parrafo_final{
+
+}
+
+.div_redes_sociales{
+
+}
+
+.div_creditos{
+    
 }
